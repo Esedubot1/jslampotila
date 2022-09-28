@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projects</title>
+</head>
+
+<body>
+    <!--Navigaatio-->
+    <div class="navbar">
+        <div class="container flex">
+            <a href="index.html">Home</a>
+            <a href="projects.html" class="current">Projects</a>
+            <a href="cats.html">Cats</a>
+            <a href="links.html">Links</a>
+        </div>
+    </div>
+
+    <!--Sisältö-->
+    <div class="text">
+        <h1>Lämpötilamuunnin</h1>
+        <p>lol</p>
+        <select id="modeSelect">
+            <option value="cf">Celsius -> Fahrenheit</option>
+            <option value="ck">Celsius -> Kelvin</option>
+            <option value="fc">Fahrenheit -> Celsius</option>
+            <option value="fk">Fahrenheit -> Kelvin</option>
+            <option value="kc">Kelvin -> Celsius</option>
+            <option value="kf">Kelvin -> Fahrenheit</option>
+        </select>
+        <input id="numero" type="text">
+        <button id="muuntoNappi">Muunna</button>
+        <br>
+        <input type="radio" id="1d" name="desimaalit" value="1 Desimaali">
+        <label for="1d">1 Desimaali</label>
+        <input type="radio" id="2d" name="desimaalit" value="2 Desimaalia">
+        <label for="2d">2 Desimaalia</label>
+        <input type="radio" id="3d" name="desimaalit" value="3 Desimaalia">
+        <label for="3d">3 Desimaalia</label>
+        <h2><span id="output"></span></h2>
+        <script src="js/lampotila.js"></script>
+    </div>
+</body>
+
+</html>
